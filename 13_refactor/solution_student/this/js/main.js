@@ -4,7 +4,12 @@
 // -------------------------------------------------------------------------------
 
 // 1. When an element with the class .box is clicked on, fade that .box out.
+$('.box').on('click', function(){
+	$(this).fadeOut(700);
+});
 
 // 2. When an element with the class .slide-me is clicked on, slide that .slide-me up.
-
+$('.slide-me').on('click', function(){
+	$(this).slideUp(700);
+});
 
